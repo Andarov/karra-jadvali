@@ -76,3 +76,17 @@ a {
 .main-content {
     flex-grow: 1;
 }
+
+.header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: green;
+    color: var(--body-bg-color);
+}
+
+.header__container {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-align: center;
+}
