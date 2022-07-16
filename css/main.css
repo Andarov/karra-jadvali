@@ -128,3 +128,32 @@ form {
 .wrapper:nth-child(odd) {
     background-color: rgb(216, 215, 211);
 }
+
+
+@media only screen and (max-width: 500px) {
+    .content {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .content__wrapper {
+        width: 100%;
+        max-width: 500px;
+        flex-direction: column;
+    }
+
+    form {
+        margin-right: 0;
+    }
+
+    .input {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content__result-wrapper {
+        width: 100%;
+    }
+
+}
