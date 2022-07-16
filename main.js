@@ -1,7 +1,7 @@
 const elInput = document.querySelector (".input");
 const elContentResult = document.querySelector (".content__result-wrapper");
 
-elInput.addEventListener ("keyup", function(evt) {
+elInput.addEventListener ("keydown", function(evt) {
     console.log(evt);
     for (let i = 1; i <= 10; i++) {
         const result = (evt.key * i);
